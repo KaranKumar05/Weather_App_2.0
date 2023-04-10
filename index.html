@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App 2.0</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./css/qurey.css" />
+
+    <!-- Google Fonts -->
+    <!-- Header h1 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- date & Time -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+      <div>
+        <div>
+          <div id="time"></div>
+          <div id="date"></div>
+        </div>
+        <label class="switch" for="dark-mode-toggle">
+          <input type="checkbox" id="dark-mode-toggle" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </header>
+    <section>
+      <form onsubmit="getWeather(); return false">
+        <input type="text" name="cityName" id="cityName" placeholder="Enter Your City Name"/>
+        <button id="btn" type="submit">Get Weather</button>
+      </form>
+    </section>
+
+    <script src="./js/header.js"></script>
+  </body>
+</html>

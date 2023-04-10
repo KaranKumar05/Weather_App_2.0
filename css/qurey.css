@@ -1,0 +1,134 @@
+/* Header Responsive */
+@media (max-width: 1114px) {
+  header > div {
+    column-gap: 7em;
+  }
+  header > div > div {
+    font-size: 1.3em;
+    column-gap: 2em;
+  }
+}
+@media (max-width: 945px) {
+  header {
+    padding: 20px 40px;
+  }
+  header h1 {
+    font-size: 2.5em;
+  }
+  header > div {
+    column-gap: 5em;
+  }
+}
+@media (max-width: 778px) {
+  header {
+    flex-direction: column;
+    row-gap: 1em;
+    justify-content: center;
+  }
+  header h1 {
+    font-size: 3em;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+  }
+  .slider::before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 5px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  .switch input:checked + .slider::before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+}
+@media (max-width: 497px) {
+  header > div {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5em;
+  }
+}
+@media (max-width: 379px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+  }
+  .slider::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 5px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  .switch input:checked + .slider::before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+}
+@media (max-width: 326px) {
+  header h1 {
+    font-size: 2.3em;
+  }
+  header > div > div {
+    font-size: 1em;
+  }
+}
+/* Section Responsive */
+@media (max-width:689px) {
+  form{
+    height: 10em;
+}
+  form>input{
+    font-size: 1.8em;
+    padding: 4px;
+}
+form>button{
+    padding: 3px 13px;
+    font-size: 1.2em;
+}
+@media (max-width:489px) {
+  form>input{
+    font-size: 1.6em;
+    padding: 3px;
+}
+form>button{
+    padding: 3px 13px;
+    font-size: 1.1em;
+}
+}
+@media (max-width:399px) {
+  form>input{
+    width: 12em;
+    font-size: 1.6em;
+  }
+}
+@media (max-width:399px) {
+  form>input{
+    width: 11em;
+    font-size: 1.5em;
+  }
+}
+}
+/* Footer Responsive */
