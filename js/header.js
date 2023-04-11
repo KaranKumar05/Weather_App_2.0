@@ -15,8 +15,8 @@ function updateClock() {
   const second = now.getSeconds();
 
   // format the date and time components as strings
-  const dateString = `${month} ${day}, ${year}`;
-  const timeString = `${hour}:${minute}:${second}`;
+  const dateString = `<i class="bi bi-calendar"></i> ${month} ${day}, ${year}`;
+  const timeString = `<i class="bi bi-clock"></i> ${hour}:${minute}:${second}`;
 
   // update the HTML elements
   document.querySelector("#date").innerHTML = dateString;
