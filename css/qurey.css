@@ -66,6 +66,9 @@
   header > div > div {
     font-size: 1em;
   }
+  header > div > div {
+    font-size: 1em;
+  }
   .switch {
     position: relative;
     display: inline-block;
