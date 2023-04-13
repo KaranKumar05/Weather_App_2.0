@@ -30,6 +30,7 @@ window.getWeather = function () {
         .catch(function (error) {
             // handle error
             console.log(error.data);
+            document.querySelector("#name").innerHTML = "Please Enter Correct Name"
             document.querySelector("#celsius").innerHTML = "error in getting weather data";
         })
 }
