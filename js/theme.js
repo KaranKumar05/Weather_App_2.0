@@ -11,7 +11,7 @@ toggle.addEventListener("click", function () {
         header.style.cssText = "transition: 1s; background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.621)); color: white;";
         inputFeild.style.cssText = "transition: .5s; background-color: white; color: black;"
         button.style.cssText = "transition: .5s; background-color: white; color: black;"
-        info.style.cssText = "transition: .5s; background-color: white; color: black; box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.493)"; 
+        info.style.cssText = "transition: .5s; background-color: rgba(255, 255, 255, 0.537); color: black; box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.493)"; 
     } else {//dark mode js
         header.style.cssText = "transition: 1s; background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0)); color: rgb(155, 155, 155);";
         inputFeild.style.cssText = "transition: .5s; background-color: rgba(0, 0, 0, 0.55); color: white;"

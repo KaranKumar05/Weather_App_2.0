@@ -26,27 +26,6 @@ window.getWeather = function () {
             let otherInfo = document.querySelector(".otherInfo");
             otherInfo.style.padding = "20px 0px"
             otherInfo.style.rowGap = ".8em"
-            // if (status == "fogg") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-cloud-fog"></i>`;
-            // } else if (status == "colud") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-clouds"></i>`;
-            // } else if (status == "rain") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-cloud-rain"></i>`;
-            // } else if (status == "snow") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-snow"></i>`;
-            // } else if (status == "sunny") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-brightness-high"></i>`;
-            // } else if (status == "haze") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-cloud-haze2"></i>`;
-            // } else if (status == "wind") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-wind"></i>`;
-            // } else if (status == "storm") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-cloud-lightning-fill"></i>`;
-            // } else if (status == "humid") {
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-water"></i>`;
-            // } else { 
-            //     document.querySelector("#status").innerHTML = `${status} <i class="bi bi-brightness-high"></i>`;
-            // }
         })
         .catch(function (error) {
             // handle error
